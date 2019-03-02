@@ -1,0 +1,74 @@
+html {
+	margin:0;
+	padding:0;
+}
+body {
+    font-size: 13pt;
+    background-color:#C5C5C5;
+    background-size:cover;
+    padding: 10px;
+    margin:0;
+	font-family:arial;
+}
+/* header */
+p {
+	padding:0;
+	margin:0;
+}
+#header {
+    background-image: url("https://www.dropbox.com/s/cdf1zty7q5nah4b/PicsArt_03-03-12.51.07.jpg?dl=1");
+    background-size: cover;
+}
+#header img {
+    display: block;
+	float:left;
+	padding:2px;
+	width:180px;
+	
+}
+.section {
+    background-color:#ffffff;
+    border-radius: 10px;
+    width:100%;
+    height:150px;
+    margin-bottom:5px;
+}
+/* header end */
+#dpd ul {
+    list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#dpd ul li {
+    background-color:#A8A8A8;
+    width:150px;
+    border:1px solid #DADADA;
+	border-radius:10px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    float:left;
+    color:#555555;
+    font-size:20px;
+	position:relative;
+}
+#dpd ul li:hover {
+	background-color:#73FF85;
+	opacity:0.8;
+}
+#dpd ul ul {
+  display:none;
+}
+#dpd ul li:hover > ul {
+  display:block;
+}
+#dpd ul li img {
+	width:40px;
+	margin-top:4px;
+}
+#dpd ul ul ul {
+  margin-left:150px;
+  margin-top:0px;
+  position:absolute;
+}
+/* navigator menu */
